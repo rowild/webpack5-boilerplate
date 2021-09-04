@@ -1,0 +1,13 @@
+/*
+We use postcss-import, where imports have to be on top of the file.
+Therefore use the proper tailwind imports.
+*/
+/* tailwindcss base and components */
+/* @ import "tailwindcss/base"; */
+/* @ import "tailwindcss/components"; */
+/* @ import "./_common.css"; */
+/* @ import "tailwindcss/utilities"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
